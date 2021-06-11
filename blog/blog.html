@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End font -->
+    <title>Document</title>
+
+   
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="../bootstrap4.0.0/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./blog.css" />
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/manage&prevent.css">
+   
+  </head>
+  <body>
+    
+     
+     
+    <nav
+    id="navbar-main"
+    style="background: #f7f7f7 !important"
+    class="navbar navbar-expand-lg fixed-top navbar-light text-center"
+  >
+    <a class="navbar-brand" href="./indexmorph.html"
+      ><img src="../images/logo-update.png" style="width: 100px"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" id="appstore-icon">
+          <a
+            class="nav-link"
+            href="https://apps.apple.com/us/app/ripsey/id1547471514?mt=8"
+            ><img
+              class="img-fluid ios-play-icons"
+              src="../images/ios1.png"
+              alt=""
+          /></a>
+        </li>
+        <li class="nav-item" id="playstore-icon">
+          <a
+            class="nav-link"
+            href="https://play.google.com/store/apps/details?id=com.ripsey"
+            ><img
+              class="img-fluid ios-play-icons"
+              src="../images/google-play.png"
+              alt=""
+          /></a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a
+              class="btn-lg pressed-button-b dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              PCOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="../PCOS/pcos.html">PCOS</a>
+              <a class="dropdown-item" href="../CHOLESTEROL/cholestrol.html">Cholestrol </a>
+              <a class="dropdown-item" href="../BLOOD PRESSURE/bp.html">Blood pressure</a>
+              <a class="dropdown-item" href="../DIABETES/diabetes.html">Diabetes</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a
+              class="btn-lg unpressed-button-b dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+            Prevent
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="../DNA/dna.html">DNA Testing</a>
+              <a class="dropdown-item" href="../INTERMITTENT FASTING/fasting.html">Intermittent Fasting</a>
+              <a class="dropdown-item" href="../Menstrual health/menstrualhealth.html">Menstrual Health</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link unpressed-button" href="../faq.html"
+            >FAQ's</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link unpressed-button" href="../blog/blog.html"
+            >Blog</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link unpressed-button" href="../about.html"
+            >About Us</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav> 
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        static-top
+        d-lg-none
+        m-1
+        text-center
+      "
+    >
+      <a class="navbar-brand ripsey-blue" href="#">Category</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#categorySidebar"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="categorySidebar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link ripsey-blue" href="#table">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">PCOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ripsey-blue" href="#table">blank</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- SideBar -->
+    <div class="container" style="margin-top: 7%">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-lg-10 col-md-12 col-12">
+          <div class="jumbotron">
+            <!-- <h1 class="display-4">Ripsey Blog</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis, ratione!
+              </p> -->
+
+            <a
+              style="position: absolute; bottom: 15%"
+              class="btn unpressed-button-lg"
+              href="./pcos-detailed.html"
+              role="button"
+              >Read More..</a
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div
+                class="card mb-4 box-shadow"
+                style="background-color: transparent !important"
+              >
+                <img
+                  class="card-img-top img-fluid"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  style="height: 225px; width: 100%; display: block"
+                  src="./images/Can you Reverse PCOS.png"
+                  data-holder-rendered="true"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Yes, of course. To attempt the reversal of PCOS and PCOD,
+                    you need to know more about them. PCOS and PCOD manifest as
+                    acne, menstrual irregularities, obesity, male-pattern
+                    baldness, facial hair growth, mood swings, weight gain, and
+                    fatigue.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary readmorebuttons"
+                      >
+                        Read More...
+                      </button>
+                      <!-- <button
+                              type="button"
+                              class="btn btn-sm btn-outline-secondary"
+                            >
+                              Edit
+                            </button> -->
+                    </div>
+                    <small class="text-muted">2 min</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card mb-4 box-shadow"
+                style="background-color: transparent !important"
+              >
+                <img
+                  class="card-img-top img-fluid"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="./images/What are the symptoms of PCOS.png"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Polycystic ovary syndrome (PCOS) is a condition that affects
+                    hormone levels in women. So, here’s a list of symptoms of
+                    PCOS: Irregular menstrual cycle, Infertility, Excess growth
+                    of facial hair and hair loss, Weight gain, Acne, Skin
+                    darkening, Anxiety
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary readmorebuttons"
+                      >
+                        Read More...
+                      </button>
+                      <!-- <button
+                              type="button"
+                              class="btn btn-sm btn-outline-secondary"
+                            >
+                              Edit
+                            </button> -->
+                    </div>
+                    <small class="text-muted">5 min</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card mb-4 box-shadow"
+                style="background-color: transparent !important"
+              >
+                <img
+                  class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="./images/What is the main cause of PCOS.png"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Researchers, doctors, and health care providers worldwide
+                    don't know the precise cause of PCOS? Most believe that
+                    several factors such as insulin resistance, hormonal
+                    changes, genetics, inflammation, lifestyle changes, and
+                    environmental factors cause PCOS.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary readmorebuttons"
+                      >
+                        Read More...
+                      </button>
+                    </div>
+                    <small class="text-muted">4 min</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/row-->
+        </div>
+
+        <!-- END Content-->
+        <div class="col-md-2 sidebar-right" id="sidebar">
+          <div class="list-group d-none d-lg-block">
+            <a href="#table" class="list-group-item text-center">Categories</a>
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >PCOS</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >Link</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a
+              href="#table"
+              class="list-group-item border-bottom-0 border-top-0"
+              >blank</a
+            >
+            <a href="#table" class="list-group-item border-top-0">blank</a>
+          </div>
+        </div>
+
+        <!--/.sidebar-offcanvas-->
+      </div>
+      <!--/row-->
+
+      <hr />
+    </div>
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table" id="table">
+          <h4>Latest Stories</h4>
+          <caption>
+            Latest Stories
+          </caption>
+          <thead>
+            <tr>
+              <!-- <th scope="col">Date</th> -->
+              <th class="d-none d-md-block">Blog Posts</th>
+              <th scope="col"></th>
+              <th>Category</th>
+              <th></th>
+              <!-- <th scope="col">Snippet</th> -->
+            </tr>
+          </thead>
+          <tbody class="searchable" style="cursor: pointer">
+            <tr onclick="window.location='./pcos-detailed.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img src="./images/What is PCOS.png" width="200px" alt="" />
+              </td>
+              <td class="text-justify">
+                What is PCOS ? <br />
+                Polycystic Ovary Syndrome (PCOS, also known as PCOD) is a
+                medical condition that causes hormonal imbalance in women. PCOS
+                or PCOD will make your body secrete more male hormones
+                (androgen) than usual. This excess secretion will enlarge your
+                ovaries, making you develop small cysts (fluid-filled sacs) on
+                the outer edges of your ovaries and, you will experience
+                irregularities in your menstrual cycles and infertility.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./pcos-symtoms.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img
+                  src="./images/What are the symptoms of PCOS.png"
+                  width="200px"
+                  alt=""
+                />
+              </td>
+              <td class="text-justify">
+                What are the Symptoms of PCOS? <br />
+                Polycystic ovary syndrome (PCOS) is a condition that affects
+                hormone levels in women. If you are a woman between 12 years to
+                45 years, you should know how to identify this issue and know
+                when to consult with your physician. So, here’s a list of
+                symptoms of PCOS: Irregular menstrual cycle Infertility, Excess
+                growth of facial hair and hair loss, Weight gain, Acne, Skin
+                darkening, Anxiety.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./pcos-cause.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img
+                  src="./images/What is the main cause of PCOS.png"
+                  width="200px"
+                  alt=""
+                />
+              </td>
+              <td class="text-justify">
+                What is the main cause of PCOS? <br />
+                Do you know that Researchers, doctors, and health care providers
+                worldwide don't know the precise cause of PCOS? Most believe
+                that several factors such as insulin resistance, hormonal
+                changes, genetics, inflammation, lifestyle changes, and
+                environmental factors cause PCOS.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./reverse-pcos-detailed.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img
+                  src="./images/Can you Reverse PCOS.png"
+                  width="200px"
+                  alt=""
+                />
+              </td>
+              <td class="text-justify">
+                Can you Reverse PCOS ? <br />
+                Yes, of course. To attempt the reversal of PCOS and PCOD, you
+                need to know more about them. PCOS and PCOD manifest as acne,
+                menstrual irregularities, obesity, male-pattern baldness, facial
+                hair growth, mood swings, weight gain, and fatigue. Reversing
+                the condition can be attempted by balancing the hormone levels
+                and certainly require lifestyle changes.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./pcos-or-pcod.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img src="./images/PCOS or PCOD.png" width="200px" alt="" />
+              </td>
+              <td class="text-justify">
+                Are PCOS and PCOD the Same? <br />
+                We use Polycystic Ovary Syndrome (PCOS) and Polycystic Ovary
+                Disease (PCOD) interchangeably, but they actually are not the
+                same. Both are gynaecological problems associated with your
+                ovaries and have similar causes, but they are different. But
+                there are many differences between the two that you simply must
+                know! Before we go into the sciencey explanation.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./pcos-pregn-complic.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img src="" width="200px" alt="" />
+              </td>
+              <td class="text-justify">
+                WHAT ARE THE PREGNANCY COMPLICATIONS WITH PCOS? <br />
+                If you are with PCOS/PCOD you are at higher risk for certain
+                problems or complications during pregnancy. Complications of
+                pregnancy commonly associated with PCOS can even affect the
+                infant. PCOS can increase your risk of some complications during
+                pregnancy, such as: Miscarriage, Gestational diabetes,
+                Preeclampsia, High blood pressure induced by the pregnancy.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./lose-weight-reverse-pcos.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img
+                  src="./images/lose weight reverse pcos.png"
+                  width="200px"
+                  alt=""
+                />
+              </td>
+              <td class="text-justify">
+                Do I have to lose weight to reverse PCOS/PCOD? <br />
+                The answer is YES! Weight loss can significantly help you in
+                reversing PCOS. Polycystic Ovary Syndrome is a hormone imbalance
+                syndrome, which increases the Androgen (Male hormone) and
+                insulin levels in your body. These excess levels will create
+                multiple cysts in your ovaries and disrupt your menstrual cycle
+                and create hormone-related issues such as acne and excessive
+                body hairs. These symptoms can lead to long-term health issues
+                such as Type 2 Diabetes and Uterine cancer.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+            <tr onclick="window.location='./pcos-track-periods.html'">
+              <!-- <td>25 Jan 2021</td> -->
+              <td class="d-none d-md-block">
+                <img src="" width="200px" alt="" />
+              </td>
+              <td class="text-justify">
+                PCOS and tracking your periods: Does that help?<br />
+                YES, It does! Tracking your periods can help you a lot and be
+                that one friend that never lets you down! PCOS/PCOD is a
+                hormonal imbalance disorder that predominantly attacks your
+                ovaries and creates complications in your menstruation and
+                ovulation process. Therefore, tracking your periods can help you
+                detect PCOS and also help in keeping tabs on your PCOS symptoms.
+              </td>
+              <td>PCOS</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary readmorebuttons"
+                >
+                  Read More...
+                </button>
+              </td>
+              <!-- <td>Snippet</td> -->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="wave-container">
+      <img src="../images/wave_desktop.png" alt="" />
+    </div>
+    <!-- Footer -->
+    <footer class="footer-39201">
+      <div class="container">
+        <div class="row">
+          <div class="col-md mb-4 mb-md-0">
+            <h3>Store</h3>
+            <ul class="list-unstyled nav-links">
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Children</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Special Offers</a></li>
+            </ul>
+          </div>
+          <div class="col-md mb-4 mb-md-0">
+            <h3>About</h3>
+            <ul class="list-unstyled nav-links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Best sellers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md mb-4 mb-md-0">
+            <h3>Legal</h3>
+            <ul class="list-unstyled nav-links">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Legality</a></li>
+              <li><a href="#">Author License</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h3>Subscribe</h3>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolor ducimus doloremque earum ullam. Architecto voluptatum odio magni.</p>
+            <form action="#" class="subscribe">
+                <input type="text" class="form-control" placeholder="Enter your e-mail">
+                <input type="submit" class="btn btn-submit" value="Subscribe">
+              </form>
+  
+               <ul class="social list-unstyled">
+              <li><a href="#"><span class="icon-facebook"></span></a></li>
+              <li><a href="#"><span class="icon-twitter"></span></a></li>
+              <li><a href="#"><span class="icon-pinterest"></span></a></li>
+              <li><a href="#"><span class="icon-instagram"></span></a></li>
+             
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="border-top"></div>
+          </div>
+          <div class="col-md-6">
+            <p><small>&copy; 2019 All Rights Reserved.</small></p>
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+    <script
+      src="../bootstrap4.0.0/jquery-3.2.1.slim.min.js"
+     
+    ></script>
+    <script
+      src="../bootstrap4.0.0/popper.min.js"
+    ></script>
+    <script
+      src="../bootstrap4.0.0/bootstrap.min.js"
+     
+    ></script>
+    <!-- Scroll Handler -->
+
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          document.getElementById("appstore-icon").style.display = "block";
+
+          document.getElementById("playstore-icon").style.display = "block";
+        } else {
+          document.getElementById("appstore-icon").style.display = "none";
+          document.getElementById("playstore-icon").style.display = "none";
+        }
+      }
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".list-group > a").on("click", function () {
+          var letter = $(this).text();
+          $(".searchable tr td:nth-child(3)").each(function () {
+            $(this).parent().show();
+
+            if (
+              $(this).text().toLowerCase() != letter.toLowerCase() &&
+              letter !== "Categories"
+            ) {
+              $(this).parent().hide();
+            }
+          });
+        });
+      });
+      $(document).ready(function () {
+        $(".navbar-nav > li > a").on("click", function () {
+          var letter = $(this).text();
+          $(".searchable tr td:nth-child(3)").each(function () {
+            $(this).parent().show();
+
+            if (
+              $(this).text().toLowerCase() != letter.toLowerCase() &&
+              letter !== "Categories"
+            ) {
+              $(this).parent().hide();
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+body {
+  background: #f7f7f7 !important;
+
+  font-family: "Roboto" !important;
+  letter-spacing: 0.6px;
+  font-weight: 500 !important;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.wave-container {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  z-index: -10;
+  width: 100% !important;
+}
+.wave-container img {
+  width: 100%;
+}
+.jumbotron {
+  background-image: url("./images/What\ is\ PCOS.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 62vh;
+  position: relative;
+  color: white;
+}
+.unpressed-button {
+  position: relative;
+  background: transparent;
+  width: 92px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  letter-spacing: 1px !important;
+  margin: 20px;
+  color: black !important;
+  cursor: pointer;
+}
+.dropdown-menu {
+  border: none;
+  box-shadow: -4px -6px 6px #ffffff, 4px 4px 10px #ceced1;
+  background-color:#f7f7f7;
+  color: #232263;
+}
+.ios-play-icons {
+  position: relative;
+  box-shadow: 1px 1px 4px #808080, 2px 0px 2px #808080;
+  margin: 15px;
+  border-radius: 6px;
+  width: 120px !important;
+  cursor: pointer;
+}
+
+#appstore-icon {
+  display: none;
+}
+#playstore-icon {
+  display: none;
+}
+
+.unpressed-button:hover {
+  background-color: #f7f7f7;
+  color: black !important;
+
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.pressed-button {
+  text-align: center;
+  width: 92px;
+  margin: 20px;
+  cursor: pointer;
+  letter-spacing: 1px !important;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  background: #f7f7f7;
+  box-shadow: inset 3px 3px 5px #ceced1, inset -3px -3px 7px #ffffff;
+}
+
+.unpressed-button-lg {
+  display: block;
+  position: relative;
+  color: #232263 !important;
+  box-shadow: 49px -17px 15px #c3c4c7, 3px 7px 61px #ffffff;
+  background: #ebecf0;
+
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+
+  margin: 20px;
+
+  cursor: pointer;
+}
+.unpressed-button-lg:hover {
+  box-shadow: none;
+}
+
+.readmorebuttons {
+  box-shadow: -4px -4px 12px rgb(255 255 255),
+    8px 5px 9px rgb(121 130 160 / 75%);
+  background: #ebecf0;
+  /* background: #d83a3a; */
+  color: #232263 !important;
+  text-align: center;
+  /* border-radius: 10px; */
+
+  outline: none;
+  border: none !important;
+  font-weight: 500;
+  /* margin: 20px; */
+
+  cursor: pointer;
+}
+
+.readmorebuttons:hover {
+  /* box-shadow: 49px -17px 15px #c3c4c7, 3px 7px 61px #ffffff; */
+  background: #f7f7f7 !important;
+
+  color: #232263 !important;
+  text-align: center;
+
+  font-weight: 500;
+  outline: none;
+  border: none !important;
+  /* 
+  margin: 20px; */
+
+  cursor: pointer;
+}
+.ripsey-blue {
+  color: #232263;
+}
+.ripsey-red {
+  color: #891619;
+}
+
+@media screen and (max-width: 720px) {
+  .jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: unset;
+    height: 35vh !important;
+  }
+}
+.list-group-item {
+  background-color: transparent !important;
+  text-align: center;
+  color: #232263;
+  font-weight: normal;
+}
+.list-group-item:hover {
+  color: #891619;
+}
+.ripsey-blue {
+  color: #232263 !important;
+}
+.ripsey-red {
+  color: #891619;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  .jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: unset;
+    height: 35vh !important;
+  }
+  .unpressed-button-lg {
+    box-shadow: 20px -17px 15px #c3c4c7, 3px 7px 25px #ffffff;
+
+    margin: 0px;
+  }
+
+  .searchable tr .readmorebuttons {
+    margin: 0;
+    font-size: 12px;
+    width: 68px;
+  }
+
+}
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
