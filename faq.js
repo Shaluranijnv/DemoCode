@@ -13,11 +13,13 @@ const searchFun=  ()=>{
   for(var i=0;i<mytable.length;i++){
   
     let d=mytable[i].getElementsByTagName('h3')[0];
-    if(d){
+
+    let e=mytable[i].getElementsByTagName('p')[0];
+    if(d||e){
      
         let textval=d.textContent || d.innerHTML;
-        
-         if(textval.toUpperCase().indexOf(words)>-1){
+        let textval2=e.textContent || e.innerHTML
+         if(textval.toUpperCase().indexOf(words)>-1 || textval2.toUpperCase().indexOf(words)>-1){
           document.querySelector('.faq-tiles').style.display="none"
                mytable[i].style.display="none";
                
@@ -165,7 +167,7 @@ $('.fa-share-alt').click(function (){
 
 
   /// filter functionality
-  function filtergeneral(){
+  /*function filtergeneral(){
     $('.q-tile').hide();
     $('.q-tile.general').show();
   }
@@ -203,4 +205,4 @@ $('.fa-share-alt').click(function (){
     $('.q-tile').hide();
     $('.q-tile.fasting').show();
   }
-  
+  */

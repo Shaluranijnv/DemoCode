@@ -1,9 +1,8 @@
 .footer-39201 {
     padding:5rem 0;
     color: #9d9d9d; 
-    background-color: #f7f7f7;
-    box-shadow:-3px -3px 7px #ffffff, 3px 3px 5px #ceced1; 
-   
+    background: #f7f7f7;
+    box-shadow:  0 -13px 26px #ffffff;
   }
     .footer-39201 .subscribe {
       position: relative;
@@ -15,7 +14,7 @@
         box-shadow: none;
         border-radius: 30px;
         height: 50px;
-        padding-left: 30px;
+        padding-left: 10px;
         padding-right: 130px;
         border: none;
         color: #000;
@@ -39,9 +38,9 @@
       .footer-39201 .subscribe .btn-submit {
         background: #222162;
         height: 40px;
-        border-radius: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
+        border-radius: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
         color: #fff;
         font-weight: bold;
         position: absolute;
@@ -70,4 +69,7 @@
         color: #9d9d9d; }
         .footer-39201 .social li a:hover {
           color: #614ad3; }
-  
+          footer.footer-39201 {
+             
+              margin-bottom: 0;
+          }

@@ -142,6 +142,7 @@ cursor: pointer;
 }
 .q-tile i.fa-share-alt,.q-tile-b i.fa-share-alt{
   color: #7f1417;
+  display: none;
 }
 
 .q-tile h3,.q-tile-b h3{
@@ -899,10 +900,12 @@ transition-delay: 1s;
       width: 80%;
     }
     .tile{
-       width: 40%;
+       width: 75%;
       padding: 20px;
-      height: 230px;
+      height: 180px;
       margin: 15px;
+      
+    
     }
     .tile h3,.q-tile h3,.q-tile-b h3{
       font-size: 16px;
