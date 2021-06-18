@@ -176,15 +176,21 @@ margin-top: 10px;
     }
 
     /* Faq QnA */
-
+    .unpressed-button-b,.pressed-button-b{
+      margin:5px;
+    }
     
   }
+ 
   @media screen and (min-width: 768px) and (max-width: 990px) {
   
    
     #navbar-main {
       height: unset !important;
       /* background-color: #f4f4f4; */
+    }
+    .unpressed-button-b,.pressed-button-b{
+      margin:5px;
     }
 
 }
@@ -194,6 +200,9 @@ margin-top: 10px;
     #navbar-main {
       height: unset !important;
       /* background-color: #f4f4f4; */
+    }
+    .unpressed-button-b,.pressed-button-b{
+      margin:5px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -206,5 +215,7 @@ margin-top: 10px;
     .ios-play-icons {
         margin: 5px;
       }
-
+      .unpressed-button-b,.pressed-button-b{
+        margin:5px;
+      }
 }
